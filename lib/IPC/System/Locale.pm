@@ -67,3 +67,8 @@ This is a shortcut for C<<IPC::System::Options::backtick({lang=>"C"}, ...)>>
 This routine might be helpful if you are checking the output of some program and
 want to make sure that the output is in English/C locale.
 
+
+=head1 SEE ALSO
+
+L<IPC::System::Options>
+
