@@ -7,10 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-use IPC::System::Options ();
-
-use Exporter qw(import);
-our @EXPORT_OK = qw(system backtick);
+use IPC::System::Options qw(import);
 
 sub system {
     my $opts = ref($_[0]) eq 'HASH' ? shift : {};
@@ -46,6 +43,10 @@ sub backtick {
  # same for backtick (qx)
  my $output = backtick("df");
 
+Set default options for all calls (prefix each option with dash):
+
+ use IPC::System::Locale 'system', 'backtick', -lang=>'id_ID';
+
 
 =head1 DESCRIPTION
 
@@ -71,4 +72,3 @@ want to make sure that the output is in English/C locale.
 =head1 SEE ALSO
 
 L<IPC::System::Options>
-
