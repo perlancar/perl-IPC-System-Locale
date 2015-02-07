@@ -1,5 +1,11 @@
 Revision history for IPC-System-Locale
 
+0.03    2015-02-07 (PERLANCAR)
+
+	- Use IPC::System::Options' import(), so we can also allow specify
+	  default opts during 'use'.
+
+
 0.02    2015-01-04 (PERLANCAR)
 
 	- Add backtick().
