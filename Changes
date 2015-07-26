@@ -1,5 +1,12 @@
 Revision history for IPC-System-Locale
 
+0.06    2015-07-27 (PERLANCAR)
+
+	- No functional changes.
+
+	- [pod] Fix formatting (need whitespace after C<< >>).
+
+
 0.05    2015-07-27 (PERLANCAR)
 
 	- Previous release didn't contain to advertised fix, derp.
