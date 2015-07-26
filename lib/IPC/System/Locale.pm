@@ -54,15 +54,15 @@ Set default options for all calls (prefix each option with dash):
 
 =head2 system([ \%opts ], @args)
 
-This is a shortcut for C<<IPC::System::Options::system({lang=>"C"}, ...)>> (you
-can also set C<lang> or other options explicitly).
+This is a shortcut for C<< IPC::System::Options::system({lang=>"C"}, ...) >>
+(you can also set C<lang> or other options explicitly).
 
 This routine might be helpful if you are checking the output of some program and
 want to make sure that the output is in English/C locale.
 
 =head2 backtick([ \%opts ], @args)
 
-This is a shortcut for C<<IPC::System::Options::backtick({lang=>"C"}, ...)>>
+This is a shortcut for C<< IPC::System::Options::backtick({lang=>"C"}, ...) >>
 (you can also set C<lang> or other options explicitly).
 
 This routine might be helpful if you are checking the output of some program and
