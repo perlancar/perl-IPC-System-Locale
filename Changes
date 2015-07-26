@@ -1,5 +1,19 @@
 Revision history for IPC-System-Locale
 
+0.05    2015-07-27 (PERLANCAR)
+
+	- Previous release didn't contain to advertised fix, derp.
+
+
+0.04    2015-07-27 (PERLANCAR)
+
+	- No functional changes.
+
+        - [Bugfix] Bump prereq version IPC::System::Options to 0.19 to fix
+          import(). Previously we are exporting IPC::System::Options' system() &
+          backtick() instead of our own. Found via [RT#106095].
+
+
 0.03    2015-02-07 (PERLANCAR)
 
 	- Use IPC::System::Options' import(), so we can also allow specify
